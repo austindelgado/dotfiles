@@ -36,7 +36,7 @@ exec --no-startup-id nm-appletS
 
 exec --no-startup-id picom
 exec_always killall polybar
-exec_always --no-startup-id polybar
+exec_always --no-startup-id ~/.config/polybar/launch_polybar.sh
 bindsym $mod+space exec rofi -show combi
 
 # Use pactl to adjust volume in PulseAudio.
